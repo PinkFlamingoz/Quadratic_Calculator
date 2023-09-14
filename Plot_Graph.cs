@@ -13,7 +13,7 @@ namespace Quadratic_Calculator
     {
         private static readonly OxyColor color = OxyColor.FromRgb(167, 209, 41);
         private static readonly OxyColor fill = OxyColor.FromRgb(44, 51, 51);
-        private static readonly OxyColor axis = OxyColor.FromRgb(255, 213, 128);
+        private static readonly OxyColor axis = OxyColor.FromRgb(255, 128, 0);
 
         public static void Plot(PlotView plot_view, double a, double b, double c, Complex root_1, Complex root_2, double axis_of_symmetry, double vertex_x, double vertex_y, (double focus_x, double focus_y) focus, double directrix)
         {
@@ -45,14 +45,15 @@ namespace Quadratic_Calculator
             model.Axes.Add(new LinearAxis
             {
                 Position = AxisPosition.Bottom,
+                PositionAtZeroCrossing = true,
                 Minimum = -10,
                 Maximum = 10,
                 MajorGridlineStyle = LineStyle.Solid,
                 MinorGridlineStyle = LineStyle.Dot,
                 Title = "X-axis",
-                AxislineColor = color,
+                AxislineColor = axis,
                 AxislineStyle = LineStyle.Solid,
-                TicklineColor = color,
+                TicklineColor = axis,
                 // MajorGridlineColor = axis,
                 // MinorGridlineColor = axis,
             });
@@ -60,14 +61,15 @@ namespace Quadratic_Calculator
             model.Axes.Add(new LinearAxis
             {
                 Position = AxisPosition.Left,
+                PositionAtZeroCrossing = true,
                 Minimum = -10,
                 Maximum = 10,
                 MajorGridlineStyle = LineStyle.Solid,
                 MinorGridlineStyle = LineStyle.Dot,
                 Title = "Y-axis",
-                AxislineColor = color,
+                AxislineColor = axis,
                 AxislineStyle = LineStyle.Solid,
-                TicklineColor = color,
+                TicklineColor = axis,
                 // MajorGridlineColor = axis,
                 // MinorGridlineColor = axis,
             });

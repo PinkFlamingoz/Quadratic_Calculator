@@ -247,7 +247,7 @@
             button_equals.FlatStyle = FlatStyle.Flat;
             button_equals.Font = new Font("Cascadia Code", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button_equals.ForeColor = Color.White;
-            button_equals.Location = new Point(214, 412);
+            button_equals.Location = new Point(214, 402);
             button_equals.Name = "button_equals";
             button_equals.Size = new Size(88, 77);
             button_equals.TabIndex = 11;
@@ -263,7 +263,7 @@
             button_reset.FlatStyle = FlatStyle.Flat;
             button_reset.Font = new Font("Cascadia Code", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button_reset.ForeColor = Color.White;
-            button_reset.Location = new Point(126, 412);
+            button_reset.Location = new Point(126, 402);
             button_reset.Name = "button_reset";
             button_reset.Size = new Size(88, 77);
             button_reset.TabIndex = 12;
@@ -279,7 +279,7 @@
             button_next.FlatStyle = FlatStyle.Flat;
             button_next.Font = new Font("Cascadia Code", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button_next.ForeColor = Color.White;
-            button_next.Location = new Point(38, 412);
+            button_next.Location = new Point(38, 402);
             button_next.Name = "button_next";
             button_next.Size = new Size(88, 77);
             button_next.TabIndex = 13;
@@ -295,7 +295,7 @@
             button_delete_history.FlatStyle = FlatStyle.Flat;
             button_delete_history.Font = new Font("Cascadia Code", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button_delete_history.ForeColor = Color.White;
-            button_delete_history.Location = new Point(126, 335);
+            button_delete_history.Location = new Point(126, 325);
             button_delete_history.Name = "button_delete_history";
             button_delete_history.Size = new Size(176, 77);
             button_delete_history.TabIndex = 14;
@@ -379,7 +379,7 @@
             button_delete.FlatStyle = FlatStyle.Flat;
             button_delete.Font = new Font("Cascadia Code", 10F, FontStyle.Regular, GraphicsUnit.Point);
             button_delete.ForeColor = Color.White;
-            button_delete.Location = new Point(38, 335);
+            button_delete.Location = new Point(38, 325);
             button_delete.Name = "button_delete";
             button_delete.Size = new Size(88, 77);
             button_delete.TabIndex = 11;
@@ -440,7 +440,7 @@
             textBox_c.BackColor = Color.Black;
             textBox_c.Font = new Font("Cascadia Code", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox_c.ForeColor = Color.White;
-            textBox_c.Location = new Point(38, 178);
+            textBox_c.Location = new Point(38, 193);
             textBox_c.Name = "textBox_c";
             textBox_c.PlaceholderText = "c";
             textBox_c.Size = new Size(264, 35);
@@ -454,7 +454,7 @@
             textBox_b.BackColor = Color.Black;
             textBox_b.Font = new Font("Cascadia Code", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox_b.ForeColor = Color.White;
-            textBox_b.Location = new Point(38, 109);
+            textBox_b.Location = new Point(38, 124);
             textBox_b.Name = "textBox_b";
             textBox_b.PlaceholderText = "b";
             textBox_b.Size = new Size(264, 35);
@@ -468,7 +468,7 @@
             textBox_a.BackColor = Color.Black;
             textBox_a.Font = new Font("Cascadia Code", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox_a.ForeColor = Color.White;
-            textBox_a.Location = new Point(38, 42);
+            textBox_a.Location = new Point(38, 57);
             textBox_a.Name = "textBox_a";
             textBox_a.PlaceholderText = "a";
             textBox_a.Size = new Size(264, 35);
