@@ -1,9 +1,7 @@
 ﻿using OxyPlot.Axes;
-using OxyPlot.Legends;
 using OxyPlot.Series;
 using OxyPlot;
 using OxyPlot.WindowsForms;
-using TickStyle = OxyPlot.Axes.TickStyle;
 using OxyPlot.Annotations;
 using System.Numerics;
 
@@ -30,7 +28,7 @@ namespace Quadratic_Calculator
                 PlotAreaBorderColor = color
             };
 
-            var series = new FunctionSeries(x => a * x * x + b * x + c, -10, 10, 0.1, $"y = {a}x^2 + {b}x + {c}")
+            var series = new FunctionSeries(x => a * x * x + b * x + c, -5, 5, 0.1, $"y = {a}x^2 + {b}x + {c}")
             {
                 Color = color,
                 StrokeThickness = 1,

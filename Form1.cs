@@ -1,9 +1,7 @@
-using OxyPlot.Series;
 using OxyPlot;
 using System.Diagnostics;
 using System.Text;
 using Timer = System.Windows.Forms.Timer;
-using OxyPlot.WindowsForms;
 using System.Numerics;
 
 namespace Quadratic_Calculator
