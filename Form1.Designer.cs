@@ -313,7 +313,7 @@
             richTextBox_history.Location = new Point(0, 74);
             richTextBox_history.Name = "richTextBox_history";
             richTextBox_history.ReadOnly = true;
-            richTextBox_history.Size = new Size(385, 662);
+            richTextBox_history.Size = new Size(385, 698);
             richTextBox_history.TabIndex = 15;
             richTextBox_history.Text = "";
             // 
@@ -350,7 +350,7 @@
             panel_number_pad_container.Controls.Add(button_minus);
             panel_number_pad_container.Controls.Add(button0);
             panel_number_pad_container.Dock = DockStyle.Bottom;
-            panel_number_pad_container.Location = new Point(0, 233);
+            panel_number_pad_container.Location = new Point(0, 269);
             panel_number_pad_container.Name = "panel_number_pad_container";
             panel_number_pad_container.Size = new Size(338, 503);
             panel_number_pad_container.TabIndex = 21;
@@ -393,9 +393,9 @@
             panel_graph_container.BackColor = Color.FromArgb(44, 51, 51);
             panel_graph_container.Controls.Add(plotView_quadratic);
             panel_graph_container.Dock = DockStyle.Fill;
-            panel_graph_container.Location = new Point(338, 193);
+            panel_graph_container.Location = new Point(338, 157);
             panel_graph_container.Name = "panel_graph_container";
-            panel_graph_container.Size = new Size(515, 736);
+            panel_graph_container.Size = new Size(515, 772);
             panel_graph_container.TabIndex = 22;
             // 
             // plotView_quadratic
@@ -407,7 +407,7 @@
             plotView_quadratic.Location = new Point(0, 0);
             plotView_quadratic.Name = "plotView_quadratic";
             plotView_quadratic.PanCursor = Cursors.Hand;
-            plotView_quadratic.Size = new Size(515, 736);
+            plotView_quadratic.Size = new Size(515, 772);
             plotView_quadratic.TabIndex = 24;
             plotView_quadratic.ZoomHorizontalCursor = Cursors.SizeWE;
             plotView_quadratic.ZoomRectangleCursor = Cursors.SizeNWSE;
@@ -429,9 +429,9 @@
             panel_result_container.Controls.Add(textBox_a);
             panel_result_container.Controls.Add(panel_number_pad_container);
             panel_result_container.Dock = DockStyle.Left;
-            panel_result_container.Location = new Point(0, 193);
+            panel_result_container.Location = new Point(0, 157);
             panel_result_container.Name = "panel_result_container";
-            panel_result_container.Size = new Size(338, 736);
+            panel_result_container.Size = new Size(338, 772);
             panel_result_container.TabIndex = 23;
             // 
             // textBox_c
@@ -440,10 +440,12 @@
             textBox_c.BackColor = Color.Black;
             textBox_c.Font = new Font("Cascadia Code", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox_c.ForeColor = Color.White;
-            textBox_c.Location = new Point(38, 160);
+            textBox_c.Location = new Point(38, 178);
             textBox_c.Name = "textBox_c";
+            textBox_c.PlaceholderText = "c";
             textBox_c.Size = new Size(264, 35);
             textBox_c.TabIndex = 24;
+            textBox_c.TextAlign = HorizontalAlignment.Center;
             textBox_c.Click += Text_Box_Enter;
             // 
             // textBox_b
@@ -452,10 +454,12 @@
             textBox_b.BackColor = Color.Black;
             textBox_b.Font = new Font("Cascadia Code", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox_b.ForeColor = Color.White;
-            textBox_b.Location = new Point(38, 91);
+            textBox_b.Location = new Point(38, 109);
             textBox_b.Name = "textBox_b";
+            textBox_b.PlaceholderText = "b";
             textBox_b.Size = new Size(264, 35);
             textBox_b.TabIndex = 23;
+            textBox_b.TextAlign = HorizontalAlignment.Center;
             textBox_b.Click += Text_Box_Enter;
             // 
             // textBox_a
@@ -464,10 +468,12 @@
             textBox_a.BackColor = Color.Black;
             textBox_a.Font = new Font("Cascadia Code", 18F, FontStyle.Regular, GraphicsUnit.Point);
             textBox_a.ForeColor = Color.White;
-            textBox_a.Location = new Point(38, 24);
+            textBox_a.Location = new Point(38, 42);
             textBox_a.Name = "textBox_a";
+            textBox_a.PlaceholderText = "a";
             textBox_a.Size = new Size(264, 35);
             textBox_a.TabIndex = 22;
+            textBox_a.TextAlign = HorizontalAlignment.Center;
             textBox_a.Click += Text_Box_Enter;
             // 
             // richTextBox_result
@@ -480,7 +486,7 @@
             richTextBox_result.Location = new Point(0, 0);
             richTextBox_result.Name = "richTextBox_result";
             richTextBox_result.ReadOnly = true;
-            richTextBox_result.Size = new Size(1238, 193);
+            richTextBox_result.Size = new Size(1238, 157);
             richTextBox_result.TabIndex = 21;
             richTextBox_result.Text = "";
             // 
@@ -490,9 +496,9 @@
             panel_history_container.Controls.Add(progressBar_progress);
             panel_history_container.Controls.Add(label_speed);
             panel_history_container.Dock = DockStyle.Right;
-            panel_history_container.Location = new Point(853, 193);
+            panel_history_container.Location = new Point(853, 157);
             panel_history_container.Name = "panel_history_container";
-            panel_history_container.Size = new Size(385, 736);
+            panel_history_container.Size = new Size(385, 772);
             panel_history_container.TabIndex = 24;
             // 
             // Form1
