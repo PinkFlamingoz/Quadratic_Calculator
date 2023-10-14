@@ -11,7 +11,7 @@ A calculator to solve hard quadratic equations!
  
  ## Features
  - History of your calculations.
- - Ofcourse the calculation power as well :D.
+ - Of course the calculation power as well :D.
  - Graph the equation
  
  ## How the app looks
