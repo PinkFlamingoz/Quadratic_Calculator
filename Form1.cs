@@ -16,8 +16,8 @@ namespace Quadratic_Calculator
         // Variables
 
         // Keeping track of the last clicked button
-        private Button? clicked_button;
 
+        private Button? clicked_button;
         private readonly List<TextBox> text_boxes = new();
         private TextBox? active_text_box = null;
         private int current_text_box_index;
@@ -92,7 +92,7 @@ namespace Quadratic_Calculator
         // Solver -------------------------------------------------
 
         // Solve the equation
-        private (string result, Complex root_1, Complex root_2, double axis_of_symmetry, double vertex_x, double vertex_y, (double focus_x, double focus_y) focus, double directrix) Solve_Equation(double a, double b, double c)
+        private static (string result, Complex root_1, Complex root_2, double axis_of_symmetry, double vertex_x, double vertex_y, (double focus_x, double focus_y) focus, double directrix) Solve_Equation(double a, double b, double c)
         {
             return Quadratic_Solver.Solve(a, b, c);
         }
@@ -312,10 +312,6 @@ namespace Quadratic_Calculator
                 // Store the reference to the clicked button for future color change when other buttons are clicked
                 clicked_button = button_click;
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
         }
 
         // Functions -------------------------------------------------------------------------------------------------------------------------------------------------------

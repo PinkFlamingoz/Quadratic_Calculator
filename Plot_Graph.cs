@@ -9,12 +9,16 @@ namespace Quadratic_Calculator
 {
     public static class Plot_Graph
     {
+        // Set some standard colors for the plot's features
+
         private static readonly OxyColor color = OxyColor.FromRgb(167, 209, 41);
         private static readonly OxyColor fill = OxyColor.FromRgb(44, 51, 51);
         private static readonly OxyColor axis = OxyColor.FromRgb(255, 128, 0);
 
+        // The method Plot creates a visualization of the quadratic function
         public static void Plot(PlotView plot_view, double a, double b, double c, Complex root_1, Complex root_2, double axis_of_symmetry, double vertex_x, double vertex_y, (double focus_x, double focus_y) focus, double directrix)
         {
+            // Initialize a new plot model with some basic configurations
             var model = new PlotModel
             {
                 Title = "Quadratic Graph",
@@ -28,6 +32,7 @@ namespace Quadratic_Calculator
                 PlotAreaBorderColor = color
             };
 
+            // Create a function series (graph) for the quadratic function
             var series = new FunctionSeries(x => a * x * x + b * x + c, -5, 5, 0.1, $"y = {a}x^2 + {b}x + {c}")
             {
                 Color = color,
@@ -40,6 +45,7 @@ namespace Quadratic_Calculator
             };
             model.Series.Add(series);
 
+            // Add X-axis settings
             model.Axes.Add(new LinearAxis
             {
                 Position = AxisPosition.Bottom,
@@ -56,6 +62,7 @@ namespace Quadratic_Calculator
                 // MinorGridlineColor = axis,
             });
 
+            // Add Y-axis settings
             model.Axes.Add(new LinearAxis
             {
                 Position = AxisPosition.Left,

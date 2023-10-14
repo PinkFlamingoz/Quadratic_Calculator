@@ -519,7 +519,6 @@
             MinimizeBox = false;
             Name = "Form1";
             Text = "Quadratic Calculator";
-            Load += Form1_Load;
             panel_number_pad_container.ResumeLayout(false);
             panel_graph_container.ResumeLayout(false);
             panel_result_container.ResumeLayout(false);
