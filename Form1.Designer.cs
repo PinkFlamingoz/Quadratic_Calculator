@@ -396,7 +396,7 @@
             panel_graph_container.Dock = DockStyle.Fill;
             panel_graph_container.Location = new Point(338, 157);
             panel_graph_container.Name = "panel_graph_container";
-            panel_graph_container.Size = new Size(515, 772);
+            panel_graph_container.Size = new Size(645, 772);
             panel_graph_container.TabIndex = 22;
             // 
             // plotView_quadratic
@@ -408,7 +408,7 @@
             plotView_quadratic.Location = new Point(0, 0);
             plotView_quadratic.Name = "plotView_quadratic";
             plotView_quadratic.PanCursor = Cursors.Hand;
-            plotView_quadratic.Size = new Size(515, 772);
+            plotView_quadratic.Size = new Size(645, 772);
             plotView_quadratic.TabIndex = 24;
             plotView_quadratic.ZoomHorizontalCursor = Cursors.SizeWE;
             plotView_quadratic.ZoomRectangleCursor = Cursors.SizeNWSE;
@@ -487,7 +487,7 @@
             richTextBox_result.Location = new Point(0, 0);
             richTextBox_result.Name = "richTextBox_result";
             richTextBox_result.ReadOnly = true;
-            richTextBox_result.Size = new Size(1238, 157);
+            richTextBox_result.Size = new Size(1368, 157);
             richTextBox_result.TabIndex = 21;
             richTextBox_result.Text = "";
             // 
@@ -497,7 +497,7 @@
             panel_history_container.Controls.Add(progressBar_progress);
             panel_history_container.Controls.Add(label_speed);
             panel_history_container.Dock = DockStyle.Right;
-            panel_history_container.Location = new Point(853, 157);
+            panel_history_container.Location = new Point(983, 157);
             panel_history_container.Name = "panel_history_container";
             panel_history_container.Size = new Size(385, 772);
             panel_history_container.TabIndex = 24;
@@ -507,7 +507,7 @@
             AutoScaleDimensions = new SizeF(7F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(1238, 929);
+            ClientSize = new Size(1368, 929);
             Controls.Add(panel_graph_container);
             Controls.Add(panel_history_container);
             Controls.Add(panel_result_container);
